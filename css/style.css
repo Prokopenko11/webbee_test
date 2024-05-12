@@ -124,10 +124,13 @@ a {
   padding: 12px 17px;
 }
 
-.header-nav-item-link:hover,
-.header-nav-pages-item-link:focus {
+.header-nav-item-link:hover {
   background-color: #F1F1F1;
   cursor: pointer;
+}
+
+.header-nav-pages-item-link_checked {
+  background-color: #F1F1F1;
 }
 
 .header-nav-pages-item-title {
@@ -536,4 +539,55 @@ a {
   border-radius: 4px;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.map-wrapper {
+  padding: 17px 32px 32px 32px;
+  width: 100%;
+
+  background-color: #FFFFFF;
+}
+
+.map-wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.map-title {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #505050;
+}
+
+.map-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.map {
+  position: relative;
+
+  width: 100%;
+  height: 480px;
+}
+
+.preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.preloader-icon {
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
