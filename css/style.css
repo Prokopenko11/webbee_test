@@ -591,3 +591,35 @@ a {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 17px 32px 32px 32px;
+
+  background-color: #fff;
+}
+
+.timer-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-title {
+  margin-bottom: 33px;
+
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #505050;
+}
+
+.timer {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #505050;
+}
