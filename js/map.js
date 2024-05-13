@@ -1,4 +1,3 @@
-ymaps.ready(init);
 function init() {
   let myMap = new ymaps.Map("map", {
     center: [59.94, 30.31],
@@ -15,4 +14,3 @@ function init() {
 
   document.getElementById("preloader").style.display = "none";
 }
-   
