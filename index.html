@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=c5273e2a-3535-48b1-8017-773fc609f4f2&lang=ru_RU"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="profile-header">
+      <a href="" class="profile-header-title-wrapper">
+        <img src="svg/Back-arrow.svg" alt="back" class="profile-header-title-image">
+        <div class="profile-header-title"><span class="profile-header-title-bold">User pages</span> - Profile</div>
+      </a>
+      <ul class="profile-header-icons">
+        <li class="profile-header-icon">
+          <img src="svg/statistics.svg" alt="diagram" class="profile-header-icon-image">
+          <h3 class="profile-header-icon-title">Statistics</h3>
+        </li>
+        <li class="profile-header-icon">
+          <img src="svg/Calculate.svg" alt="calculator" class="profile-header-icon-image">
+          <h3 class="profile-header-icon-title">Invoices</h3>
+        </li>
+        <li class="profile-header-icon">
+          <img src="svg/list.svg" alt="list" class="profile-header-icon-image">
+          <h3 class="profile-header-icon-title">Schedule</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="header-nav">
+      <nav class="header-nav-pages">
+        <ul class="header-nav-list">
+          <li class="header-nav-pages-item">
+            <a href="#activity"
+              class="header-nav-item-link header-nav-pages-item-link header-nav-pages-item-link_active">
+              <img src="svg/burger.svg" alt="burger-menu" class="header-nav-pages-icon">
+              <h3 class="header-nav-pages-item-title">Activity</h3>
+            </a>
+          </li>
+          <li class="header-nav-pages-item">
+            <a href="#map" class="header-nav-item-link header-nav-pages-item-link">
+              <img src="svg/map.svg" alt="pointer" class="header-nav-pages-icon">
+              <h3 class="header-nav-pages-item-title">Map</h3>
+            </a>
+          </li>
+          <li class="header-nav-pages-item">
+            <a href="#timer" class="header-nav-item-link header-nav-pages-item-link">
+              <img src="svg/clock.svg" alt="clock" class="header-nav-pages-icon">
+              <h3 class="header-nav-pages-item-title">Time</h3>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <img src="svg/burger.svg" alt="burger" class="header-nav-menu-burger">
+      <nav class="header-nav-menu">
+        <ul class="header-nav-list">
+          <li class="header-nav-menu-item">
+            <a href="" class="header-nav-item-link">
+              <img src="svg/notes.svg" alt="notes" class="header-nav-menu-icon">
+              <h3 class="header-nav-menu-item-title">Notes</h3>
+            </a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a href="" class="header-nav-item-link">
+              <img src="svg/People.svg" alt="people" class="header-nav-menu-icon">
+              <h3 class="header-nav-menu-item-title">Friends</h3>
+            </a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a href="" class="header-nav-item-link">
+              <img src="svg/Galery.svg" alt="galery" class="header-nav-menu-icon">
+              <h3 class="header-nav-menu-item-title">Photos</h3>
+            </a>
+          </li>
+          <li class="header-nav-menu-item header-nav-menu-item-settings">
+            <img src="svg/Settings.svg" alt="settings" class="header-nav-menu-icon">
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="content" id="main-content"></main>
+
+  <script src="js/script.js"></script>
+
+  <script src="js/map.js"></script>
+  <script src="js/timer.js"></script>
+</body>
+
+</html>
